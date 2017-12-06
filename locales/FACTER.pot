@@ -262,8 +262,7 @@ msgstr ""
 msgid "got a disk type: {1}"
 msgstr ""
 
-#: lib/src/facts/aix/disk_resolver.cc
-#: lib/src/facts/aix/processor_resolver.cc
+#: lib/src/facts/aix/disk_resolver.cc lib/src/facts/aix/processor_resolver.cc
 msgid "PdDvLn=%1%"
 msgstr ""
 
@@ -511,28 +510,24 @@ msgid "cannot lookup a hash element with \"{1}\": element does not exist."
 msgstr ""
 
 #. debug
-#: lib/src/facts/collection.cc
-#: lib/src/ruby/ruby.cc
+#: lib/src/facts/collection.cc lib/src/ruby/ruby.cc
 msgid ""
 "cannot lookup an array element with \"{1}\": expected an integral value."
 msgstr ""
 
 #. debug
-#: lib/src/facts/collection.cc
-#: lib/src/ruby/ruby.cc
+#: lib/src/facts/collection.cc lib/src/ruby/ruby.cc
 msgid ""
 "cannot lookup an array element with \"{1}\": expected a non-negative value."
 msgstr ""
 
 #. debug
-#: lib/src/facts/collection.cc
-#: lib/src/ruby/ruby.cc
+#: lib/src/facts/collection.cc lib/src/ruby/ruby.cc
 msgid "cannot lookup an array element with \"{1}\": the array is empty."
 msgstr ""
 
 #. debug
-#: lib/src/facts/collection.cc
-#: lib/src/ruby/ruby.cc
+#: lib/src/facts/collection.cc lib/src/ruby/ruby.cc
 msgid ""
 "cannot lookup an array element with \"{1}\": expected an integral value "
 "between 0 and {2} (inclusive)."
@@ -1249,6 +1244,11 @@ msgstr ""
 
 #. log
 #: lib/src/logging/logging.cc
+msgid "BLAH MESSAGE FOR TRANSLATION"
+msgstr ""
+
+#. log
+#: lib/src/logging/logging.cc
 msgid ""
 "Could not initialize locale, even with LC_* variables cleared. Continuing "
 "without localization support"
@@ -1264,14 +1264,12 @@ msgstr ""
 msgid "expected chunk name to be a Symbol"
 msgstr ""
 
-#: lib/src/ruby/aggregate_resolution.cc
-#: lib/src/ruby/resolution.cc
+#: lib/src/ruby/aggregate_resolution.cc lib/src/ruby/resolution.cc
 #: lib/src/ruby/simple_resolution.cc
 msgid "a block must be provided"
 msgstr ""
 
-#: lib/src/ruby/aggregate_resolution.cc
-#: lib/src/ruby/fact.cc
+#: lib/src/ruby/aggregate_resolution.cc lib/src/ruby/fact.cc
 msgid "expected a Symbol for options key"
 msgstr ""
 
@@ -1279,13 +1277,11 @@ msgstr ""
 msgid "expected a Symbol or Array of Symbol for require option"
 msgstr ""
 
-#: lib/src/ruby/aggregate_resolution.cc
-#: lib/src/ruby/fact.cc
+#: lib/src/ruby/aggregate_resolution.cc lib/src/ruby/fact.cc
 msgid "unexpected option {1}"
 msgstr ""
 
-#: lib/src/ruby/aggregate_resolution.cc
-#: lib/src/ruby/fact.cc
+#: lib/src/ruby/aggregate_resolution.cc lib/src/ruby/fact.cc
 #: lib/src/ruby/module.cc
 msgid "wrong number of arguments ({1} for 2)"
 msgstr ""
@@ -1353,14 +1349,12 @@ msgid ""
 "with the same name already exists"
 msgstr ""
 
-#: lib/src/ruby/fact.cc
-#: lib/src/ruby/module.cc
+#: lib/src/ruby/fact.cc lib/src/ruby/module.cc
 msgid "expected a String or Symbol for fact name"
 msgstr ""
 
 #. warning
-#: lib/src/ruby/module.cc
-#: lib/src/ruby/ruby.cc
+#: lib/src/ruby/module.cc lib/src/ruby/ruby.cc
 msgid "{1}: facts requiring Ruby will not be resolved."
 msgstr ""
 
@@ -1454,8 +1448,7 @@ msgstr ""
 msgid "expected argument to be a String, Symbol, or Hash"
 msgstr ""
 
-#: lib/src/ruby/resolution.cc
-#: lib/src/ruby/simple_resolution.cc
+#: lib/src/ruby/resolution.cc lib/src/ruby/simple_resolution.cc
 msgid "wrong number of arguments ({1} for 1)"
 msgstr ""
 
