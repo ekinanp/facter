@@ -73,6 +73,7 @@ namespace facter { namespace logging {
                 // We can't log the issue until after logging is setup. Rely on the exception for any other
                 // error reporting.
                 log(level::warning, "locale environment variables were bad; continuing with LANG=C LC_ALL=C");
+                log(level::warning, "BLAH MESSAGE FOR TRANSLATION")
             } catch (exception const& e) {
                 // If we fail again even with a clean environment, we
                 // need to signal to our consumer that things went
